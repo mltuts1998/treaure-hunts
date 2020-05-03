@@ -5,6 +5,8 @@ import Game from '../views/Game.vue'
 import Image from '../views/Image.vue'
 import Four04 from '../views/Four04.vue'
 import Dash from "../views/Dash.vue"
+
+
 Vue.use(VueRouter)
 
   const routes = [
@@ -45,7 +47,7 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: "/",
   routes
 })
 
